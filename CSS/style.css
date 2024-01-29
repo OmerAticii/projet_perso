@@ -1,0 +1,464 @@
+body {
+    margin: 0
+}
+.test1,.test2,.test3,.test4,.test5{
+
+    border: 4px solid #ffffff;
+    border-radius: 20px;
+    margin: 30px;
+    line-height: 100px
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    margin-left: 100px;
+}
+.ul_header{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li  a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000; 
+    line-height: -50px;
+    padding: 10px 50px;
+    font-family: sans-serif;
+    font-size: 18.5px;
+    transition: .5s;
+}
+/* header */
+.banniere {
+    background-color: #242424;
+    width: 100%;
+    height: 550%;
+}
+.bannerimg {
+    height: 110px;
+}
+/* main */
+main {
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(to bottom, #05ff48, #222222bb);
+    margin-top: -1.5rem;
+    padding-top: 40px;
+}
+main .avatar img {
+    align-items: center;
+   
+}
+.desc-si {
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    white-space: pre;
+    font-size: 25px;
+}
+/* main-wrapper */
+/* wrapper2 */
+.wrapper2 {
+    margin-left: 180px;
+    align-items: flex-end;
+}
+/* aside-wrapper */
+.aside-wrapper {
+    width: 10%;
+    background-image: linear-gradient(to bottom, #00ff3c, #454545);
+    margin-top: -2.5rem;
+}
+.avis-t {
+    color: #FFF;
+    text-align: center;
+}
+.avis1 {
+    color:#FFF;
+    
+}
+.avis1 h1 {
+    font-size: 20px;
+    text-align: left;
+}
+.avis1 p {
+    text-align: left;
+    font-size: 15px;
+}
+.avis1 img {
+    display: inline;
+    width: 30px;
+}
+/* avatar market atici*/
+.avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 25%;
+}
+.avatar img {
+    border: 1px solid;
+    border-radius: 2%;
+    border-color: #242424;
+}
+/* bitmoji */
+.bitmoji {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset;
+}
+
+/* bitmoji  */
+.bitmoji .imgl {
+    width: 200px;
+    height: 250px;
+    margin-top: 10px;
+    border: 10px solid;
+    border-radius: 15px;
+    border-color: #242424;
+}
+.bitmoji .bitl {
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-radius: 3rem;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.bitmoji .bitl a {
+    border: 4px solid;
+    border-color: #00ff40;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+.bitmoji .bitl a:visited {
+    border: 4px solid;
+    border-color: #00ff5e;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+.bitmoji .bitl a:link {
+    border: 4px solid;
+    border-color: #4e9757;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+/* bitmoji omer */
+.bitmoji-ömer .imgo {
+    width: 200px;
+    height: 250px;
+    border: 10px solid;
+    margin-top: 10px;
+    border-radius: 15px;
+    border-color: #242424;
+}
+.bitmoji .bito {
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-radius: 3rem;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+.bitmoji .bito a {
+    border: 4px solid;
+    border-color: #00ff44;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+.bitmoji .bito a:visited {
+    border: 4px solid;
+    border-color: #00ff2f;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+.bitmoji .bito a:link {
+    border: 4px solid;
+    border-color: #00ff73;
+    border-radius: 20rem;
+    font-size: 20px;
+    color: #FFF;
+    text-decoration: none;
+}
+/* bitmoji vincent */
+.bitmoji .imgv {
+    width: 200px;
+    height: 250px;
+    border: 10px solid;
+    border-radius: 15px;
+    margin-top: 10px;
+    border-color: #242424;
+}
+.bitmoji .bitv {
+    border: 1px solid;
+    border-color: #FFFFFF;
+    border-radius: 3rem;
+    width: 400px;
+    height: 550px;
+    text-align: center;
+    color: #FFF;
+    margin-left: 35px;
+    margin-top: 40px;
+}
+/* footer */
+.footers {
+    background-color: #242424;
+    width: 100%;
+}
+
+.footers .linux {
+    height: 90px;
+    display: flex;
+    margin-top: -106px;
+}
+
+.test7,.test8,.test9,.test10{
+    border: 4px solid #53974e;
+    border-radius: 20px;
+    margin: 45px;
+    line-height: 90px;
+}
+nav {
+    text-align: center;
+}
+.ul_header1{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li  a{
+    text-decoration: none;
+    color: #ffffff;
+    background: #000000;
+    height: 50px;
+    line-height: -50px;
+    padding: 10px 50px;
+    font-family: sans-serif;
+    font-size: 18.5px;
+    transition: .5s;
+}
+
+.footert2 .ul_header1 {
+    display: flex;
+    justify-content: center;
+}
+.footers{
+    height: 6rem;
+    margin-top: -16px;
+    padding-top: -10px;
+}
+
+
+
+/* formulaire connexion*/
+.conform {
+    border: 5px solid #0e0e0e;
+    border-radius: 20px;
+    margin-left: 550px;
+    width: 550px;
+    height: 450px;
+}
+#context {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    width: 190px;
+    text-align: center;
+    margin-left: 165px;
+}
+.images #rouge {
+    height: 100px;
+    width: 100px;
+    margin-left: 12px;
+}
+.images #linux {
+    height: 100px;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.images #avatar {
+    height: 100px;
+    width: 100px;
+    border: 4px solid;
+    border-color: #242424;
+    border-radius: 50%;
+    margin-left: 90px;
+}
+.conform .myform {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+}
+.myform input, label {
+    display: flex;
+    line-height: 30px;
+    width: 170px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 170px;
+}
+.myform input {
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius:  50px;
+}
+.myform #conbon {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius:  50px;
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 185px;
+    height: 50px;
+}
+/* image */
+
+.duo1 {
+    display: flex;
+    margin-top: 5em;
+}
+.duo1 .img1 {
+    margin-left: 35em;
+    height: 250px;
+    width: 250px;
+}
+.duo1 .img2 {
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+}
+.duo2 {
+    display: flex;
+    margin-top: 2em;
+}
+.duo2 .img3 {
+    margin-left: 35em;
+    height: 250px;
+    width: 250px;
+}
+.duo2 .img4 {
+    margin-left: 50px;
+    height: 250px;
+    width: 250px;
+}
+
+/* inscription */
+.conform2 {
+    border: 5px solid #0e0e0e;
+    border-radius: 20px;
+    margin-left: 550px;
+    width: 550px;
+    height: 450px;
+}
+#context {
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    border-radius: 40px;
+    width: 230px;
+    text-align: center;
+    margin-left: 145px;
+}
+.conform2 .myform2 {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 10px;
+}
+.myform2 input, label {
+    display: flex;
+    line-height: 25px;
+    width: 170px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 170px;
+}
+.myform2 input {
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius:  50px;
+}
+.myform2 #conbon2 {
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid #ffff;
+    border-radius:  50px;
+    margin-top: 20px;
+    width: 150px;
+    margin-left: 185px;
+    height: 50px;
+}
+
+/* contact */
+.body11 {
+background: #4e976c;
+font-family:Arial;
+text-align: center;
+}
+
+.form1 {
+  background: #FFFFFF;
+  width: 350px;
+  text-align: center;
+  margin: 30px auto;
+  box-shadow: 4px 4px 5px #999999;
+  padding-bottom: 40px;
+  border-radius: 10px;
+}
+h1 {
+  height: 40px;
+  width: 350px;
+  font-size: 20px;
+  background-color:#4e9750;
+  color:white;
+  padding: 15px 0 0 0;
+  border-radius: 10px 10px 0 0;
+}
+
+input {
+  margin: 20px 0px;
+  width: 300px;
+  border: none;
+  padding: 5px 0;
+  border-bottom: solid 1px #55974e;
+  color: #4e9779;
+}
+
+button {
+  border: none;
+  background-color: #4e9760;
+  color: white;
+  height: 40px;
+  width: 150px;
+  font-size: 15px;
+  box-shadow: 4px 4px 5px #4e9753;
+  border-radius: 10px;
+  
+}
+
+
+
+
+  
